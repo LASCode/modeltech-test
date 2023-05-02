@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/oilfield-analytics/static/css/main.0282452c.css",
-    "main.js": "/oilfield-analytics/static/js/main.dc0a503e.js",
-    "static/js/612.4ba7efef.chunk.js": "/oilfield-analytics/static/js/612.4ba7efef.chunk.js",
-    "static/js/787.ea7e9026.chunk.js": "/oilfield-analytics/static/js/787.ea7e9026.chunk.js",
-    "static/media/primeicons.svg": "/oilfield-analytics/static/media/primeicons.e1441b135b3ca9ad643c.svg",
-    "static/media/primeicons.eot": "/oilfield-analytics/static/media/primeicons.d44157bdfa026dc877af.eot",
-    "static/media/primeicons.woff": "/oilfield-analytics/static/media/primeicons.10d3152104f2208ac82a.woff",
-    "static/media/primeicons.ttf": "/oilfield-analytics/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
-    "static/media/primeicons.woff2": "/oilfield-analytics/static/media/primeicons.78172950b335ccdb94e2.woff2",
-    "static/media/color.png": "/oilfield-analytics/static/media/color.6441e63a57ccc5105bad.png",
-    "index.html": "/oilfield-analytics/index.html",
-    "main.0282452c.css.map": "/oilfield-analytics/static/css/main.0282452c.css.map",
-    "main.dc0a503e.js.map": "/oilfield-analytics/static/js/main.dc0a503e.js.map",
-    "612.4ba7efef.chunk.js.map": "/oilfield-analytics/static/js/612.4ba7efef.chunk.js.map",
-    "787.ea7e9026.chunk.js.map": "/oilfield-analytics/static/js/787.ea7e9026.chunk.js.map"
+    "main.css": "/modeltech-test/static/css/main.a87cfe9d.css",
+    "main.js": "/modeltech-test/static/js/main.38a82fa5.js",
+    "static/js/612.4ba7efef.chunk.js": "/modeltech-test/static/js/612.4ba7efef.chunk.js",
+    "static/js/787.ea7e9026.chunk.js": "/modeltech-test/static/js/787.ea7e9026.chunk.js",
+    "static/media/primeicons.svg": "/modeltech-test/static/media/primeicons.e1441b135b3ca9ad643c.svg",
+    "static/media/primeicons.eot": "/modeltech-test/static/media/primeicons.d44157bdfa026dc877af.eot",
+    "static/media/primeicons.woff": "/modeltech-test/static/media/primeicons.10d3152104f2208ac82a.woff",
+    "static/media/primeicons.ttf": "/modeltech-test/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
+    "static/media/primeicons.woff2": "/modeltech-test/static/media/primeicons.78172950b335ccdb94e2.woff2",
+    "static/media/color.png": "/modeltech-test/static/media/color.6441e63a57ccc5105bad.png",
+    "index.html": "/modeltech-test/index.html",
+    "main.a87cfe9d.css.map": "/modeltech-test/static/css/main.a87cfe9d.css.map",
+    "main.38a82fa5.js.map": "/modeltech-test/static/js/main.38a82fa5.js.map",
+    "612.4ba7efef.chunk.js.map": "/modeltech-test/static/js/612.4ba7efef.chunk.js.map",
+    "787.ea7e9026.chunk.js.map": "/modeltech-test/static/js/787.ea7e9026.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0282452c.css",
-    "static/js/main.dc0a503e.js"
+    "static/css/main.a87cfe9d.css",
+    "static/js/main.38a82fa5.js"
   ]
 }
