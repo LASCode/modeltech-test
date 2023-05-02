@@ -1,3 +1,4 @@
+@import "src/styles/breakpoints";
 $table-br: 10px;
 
 .table {
@@ -7,6 +8,16 @@ $table-br: 10px;
     }
     .p-datatable-footer {
       border-radius: 0 0 $table-br $table-br;
+    }
+    .p-datatable-wrapper {
+      @include desktop {
+        border-bottom: 1px solid #dee2e6;
+        border-radius: 0 0 10px 10px;
+      }
+      @include tablet {
+        border-bottom: 1px solid;
+        border-radius: 0 0 10px 10px;
+      }
     }
   }
 }

@@ -19,24 +19,20 @@ export const PageLayout = ({
     return (
         <div className={cx('page-layout')}>
             <main className={cx('content')}>
-                <div className={cx('content-absolute')}>
-                    <div className={cx('content-inner')}>
-                        {isLoading(status)
-                            ? (<Suspense fallback={skeleton} />)
-                            : (
-                                <>
-                                    {children}
-                                    <ModalServerError
-                                        onRetry={onRetry || noop}
-                                        isOpen={status === FetchStatus.REJECTED}
-                                        onClose={noop}
-                                        message={errorMessage}
-                                    />
-                                </>
-                            )
-                        }
-                    </div>
-                </div>
+                {isLoading(status)
+                    ? (<Suspense fallback={skeleton} />)
+                    : (
+                        <>
+                            {children}
+                            <ModalServerError
+                                onRetry={onRetry || noop}
+                                isOpen={status === FetchStatus.REJECTED}
+                                onClose={noop}
+                                message={errorMessage}
+                            />
+                        </>
+                    )
+                }
             </main>
         </div>
     );

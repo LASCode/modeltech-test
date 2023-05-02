@@ -7,6 +7,12 @@
   height: 100%;
   max-height: 310px;
 
+  @include tablet {
+    max-height: 460px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
   @include mobile {
     max-height: 460px;
     display: grid;
@@ -24,6 +30,15 @@
   right: 0;
   top: 0;
   bottom: 0;
+
+  @include tablet {
+    display: flex;
+    justify-content: center;
+  }
+  @include mobile {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .chart-wrapper {
@@ -35,4 +50,13 @@
   right: 0;
   top: 0;
   bottom: 0;
+
+  @include tablet {
+    display: flex;
+    justify-content: center;
+  }
+  @include mobile {
+    display: flex;
+    justify-content: center;
+  }
 }

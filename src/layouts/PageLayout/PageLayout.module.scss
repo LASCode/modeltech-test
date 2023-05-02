@@ -3,24 +3,16 @@
 
 .page-layout {
   height: 100vh;
-  display: flex;
-
-
-  @include mobile {
-    flex-direction: column-reverse;
-  }
 }
 
-.header {
-
-}
 .content {
   position: relative;
-  //height: 100%;
   flex: 1;
-  //display: flex;
-  //justify-content: center;
-  //padding: $page-safe-area-y $page-safe-area-x;
+  max-width: $page-content-max-width;
+  width: 100%;
+  padding: $page-safe-area-y $page-safe-area-x;
+  min-width: 400px;
+  margin: 0 auto;
 }
 .content-absolute {
   position: absolute;

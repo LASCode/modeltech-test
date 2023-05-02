@@ -16,8 +16,7 @@
   @include mobile {
     height: 500px;
   }
-}
-
-.test {
-  height: 400px;
+  @include tablet {
+    height: 500px;
+  }
 }

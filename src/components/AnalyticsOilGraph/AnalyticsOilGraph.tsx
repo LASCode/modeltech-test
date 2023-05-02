@@ -25,12 +25,12 @@ export const AnalyticsOilGraph = () => {
             {
                 data: [totalOilValue, totalWaterValue],
                 backgroundColor: [
-                    'black',
-                    'yellow',
+                    '#000000a8',
+                    '#4356f8a8',
                 ],
                 hoverBackgroundColor: [
-                    'black',
-                    'yellow',
+                    '#000000a8',
+                    '#4356f8a8',
                 ]
             }
         ]
@@ -43,7 +43,7 @@ export const AnalyticsOilGraph = () => {
             {
                 label: 'Нефть м3',
                 fill: false,
-                borderColor: 'black',
+                borderColor: '#000000a8',
                 yAxisID: 'y',
                 tension: 0.4,
                 data: datasets.map((el) => el.oil.currentValue)
@@ -51,7 +51,7 @@ export const AnalyticsOilGraph = () => {
             {
                 label: 'Вода м3',
                 fill: false,
-                borderColor: 'blue',
+                borderColor: '#4356f8a8',
                 // yAxisID: 'y1',
                 // tension: 0.4,
                 data: datasets.map((el) => el.water.currentValue)

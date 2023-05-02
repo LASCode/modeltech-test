@@ -15,21 +15,35 @@ const validateStringDate = (date: string): boolean => {
     return isValid;
 };
 const checkIsValidDate = (date: string): boolean => isValid(parse(date, dateSortParseTemplate, new Date()));
-const hasPropertyGuard = <T>(prop: T, func: (prop: NonNullable<T>) => boolean, message: string): undefined | string => {
+const hasPropertyGuard = <T>(prop: T, func: (prop: NonNullable<T>) => boolean, message: any): undefined | string => {
     if (!prop) { return undefined }
 
     return func(prop) ? undefined : message;
 };
 
 export const validateDateSortForm = (values: DateSortFormValues): DateSortFormErrors => {
-
-    return ({
+    const b = {
         singleSort: hasPropertyGuard(
             values.singleSort,
             (prop) => checkIsValidDate(prop) && validateStringDate(prop),
             'Дата некорректна'
-        )
-    });
+        ),
+        rangeSort: hasPropertyGuard(
+            values.rangeSort,
+            // (prop) => prop.every((el) => checkIsValidDate(el) && validateStringDate(el)),
+            (prop) => prop.every((el) => checkIsValidDate(el) && validateStringDate(el)),
+            values.rangeSort?.map((el) => (checkIsValidDate(el) && validateStringDate(el)) ? undefined : 'Дата некорректна')
+        ),
+        multiplySort: hasPropertyGuard(
+            values.multiplySort,
+            (prop) => prop.every((el) => checkIsValidDate(el) && validateStringDate(el)),
+            'Дата некорректна'
+        ),
+    }
+
+    console.log(b);
+
+    return b;
 }
 //     ({
 //     // singleSort: !!values.singleSort,
