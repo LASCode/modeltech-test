@@ -1,0 +1,18 @@
+$table-br: 10px;
+
+.table {
+  :global {
+    .p-datatable-header {
+      border-radius: $table-br $table-br 0 0;
+    }
+    .p-datatable-footer {
+      border-radius: 0 0 $table-br $table-br;
+    }
+  }
+}
+
+.column-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

@@ -1,0 +1,38 @@
+.date-sort {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.date-sort-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 5px
+}
+.input-dropdown {
+  height: 30px;
+  flex: 1;
+
+  :global {
+    .p-dropdown-label {
+      padding: 3px 20px;
+    }
+  }
+}
+.button-calendar {
+  height: 30px !important;
+  width: 30px !important;
+}
+
+.date-sort-content {
+  display: flex;
+  gap: 5px;
+}
+.input-date {
+  width: 100%;
+  height: 30px;
+  padding: 3px 20px !important;
+}

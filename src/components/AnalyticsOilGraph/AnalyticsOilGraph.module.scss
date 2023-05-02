@@ -1,0 +1,38 @@
+@import "src/styles/breakpoints";
+
+.analytics-oil-graph {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  gap: 20px;
+  height: 100%;
+  max-height: 310px;
+
+  @include mobile {
+    max-height: 460px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+.graph-wrapper {
+  position: relative;
+}
+.graph {
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.chart-wrapper {
+  position: relative;
+}
+.chart {
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

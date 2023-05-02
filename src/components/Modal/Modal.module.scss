@@ -1,0 +1,31 @@
+@import 'src/styles/breakpoints';
+
+.modal {
+  min-width: 450px;
+
+  @include mobile {
+    min-width: 100px;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  :global {
+    .p-dialog-header {
+      border-bottom: 1px solid #ececec !important;
+      padding: 20px !important;
+
+      @include mobile {
+        border-top-right-radius: 30px !important;
+        border-top-left-radius: 30px !important;
+      }
+    }
+    .p-dialog-content {
+      padding: 20px !important;
+
+      @include mobile {
+        border-bottom-right-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+      }
+    }
+  }
+}

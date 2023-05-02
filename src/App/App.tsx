@@ -1,6 +1,8 @@
 import { useAppWindowSize } from "hooks/useAppWindowSize";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import {TestPage} from "pages/TestPage";
+import {OilfieldAnalyticsPage} from "pages/OilfieldAnalyticsPage/OilfieldAnalyticsPage";
+import {appRoutes} from "routes";
+import {OilfieldListPage} from "../pages/OilfieldListPage/OilfieldListPage";
 
 
 export const App = () => {
@@ -9,7 +11,8 @@ export const App = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path={'/test'} element={<TestPage />} />
+                <Route path={appRoutes.index()} element={<OilfieldListPage />} />
+                <Route path={'/test'} element={<OilfieldAnalyticsPage />} />
                 <Route path={'*'} element={<>Error</>} />
             </Routes>
         </BrowserRouter>

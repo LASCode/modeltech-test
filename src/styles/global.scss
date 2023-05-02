@@ -1,6 +1,12 @@
 @import "primereact/resources/themes/lara-light-indigo/theme.css";
 @import "primereact/resources/primereact.min.css";
+@import 'primeicons/primeicons.css';
+
+
+
 
 body {
   font-family: --font-family, sans-serif;
+  margin: 0;
+  padding: 0;
 }

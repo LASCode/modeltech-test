@@ -1,0 +1,39 @@
+@import "src/styles/breakpoints";
+@import "src/styles/variables";
+
+.page-layout {
+  height: 100vh;
+  display: flex;
+
+
+  @include mobile {
+    flex-direction: column-reverse;
+  }
+}
+
+.header {
+
+}
+.content {
+  position: relative;
+  //height: 100%;
+  flex: 1;
+  //display: flex;
+  //justify-content: center;
+  //padding: $page-safe-area-y $page-safe-area-x;
+}
+.content-absolute {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+}
+.content-inner {
+  max-width: $page-content-max-width;
+  width: 100%;
+  padding: $page-safe-area-y $page-safe-area-x;
+}

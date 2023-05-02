@@ -1,0 +1,25 @@
+@import "src/styles/breakpoints";
+
+.modal {
+  :global {
+    @include media-max(769px) {
+      .p-datepicker table td {
+        padding: 0.5rem !important;
+      }
+    }
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dropdown {
+  width: 100%;
+}
+
+.calendar {
+  width: 100%;
+}

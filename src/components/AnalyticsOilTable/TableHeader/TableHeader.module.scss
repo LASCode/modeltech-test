@@ -1,0 +1,14 @@
+.table-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.table-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.table-action {
+  height: fit-content;
+}

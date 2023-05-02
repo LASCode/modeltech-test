@@ -1,0 +1,23 @@
+@import "src/styles/variables";
+@import "src/styles/breakpoints";
+
+.oilfield-analytics-page {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.graph-wrapper {
+  border: 1px solid #dee2e6;
+  padding: 20px;
+  border-radius: 10px;
+  height: 350px;
+
+  @include mobile {
+    height: 500px;
+  }
+}
+
+.test {
+  height: 400px;
+}
