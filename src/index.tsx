@@ -10,8 +10,16 @@ import './styles/breakpoints.scss';
 
 const container = document.getElementById('root')!;
 const root = createRoot(container);
-void worker.start()
 
+if (process.env.NODE_ENV === 'production') {
+    void worker.start({
+        serviceWorker: {
+            url: '/modeltech-test/mockServiceWorker.js',
+        }
+    })
+} else {
+    void worker.start();
+}
 
 root.render(
     <Provider store={store}>
