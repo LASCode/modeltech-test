@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/modeltech-test/static/css/main.a87cfe9d.css",
-    "main.js": "/modeltech-test/static/js/main.4f487d24.js",
+    "main.js": "/modeltech-test/static/js/main.ec13d095.js",
     "static/js/612.4ba7efef.chunk.js": "/modeltech-test/static/js/612.4ba7efef.chunk.js",
     "static/js/787.ea7e9026.chunk.js": "/modeltech-test/static/js/787.ea7e9026.chunk.js",
     "static/media/primeicons.svg": "/modeltech-test/static/media/primeicons.e1441b135b3ca9ad643c.svg",
@@ -12,12 +12,12 @@
     "static/media/color.png": "/modeltech-test/static/media/color.6441e63a57ccc5105bad.png",
     "index.html": "/modeltech-test/index.html",
     "main.a87cfe9d.css.map": "/modeltech-test/static/css/main.a87cfe9d.css.map",
-    "main.4f487d24.js.map": "/modeltech-test/static/js/main.4f487d24.js.map",
+    "main.ec13d095.js.map": "/modeltech-test/static/js/main.ec13d095.js.map",
     "612.4ba7efef.chunk.js.map": "/modeltech-test/static/js/612.4ba7efef.chunk.js.map",
     "787.ea7e9026.chunk.js.map": "/modeltech-test/static/js/787.ea7e9026.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a87cfe9d.css",
-    "static/js/main.4f487d24.js"
+    "static/js/main.ec13d095.js"
   ]
 }
