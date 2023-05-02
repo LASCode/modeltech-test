@@ -1,5 +1,5 @@
 {
-  "name": "testovoe",
+  "name": "oilfield-analytics",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,6 +15,7 @@
     "classnames": "^2.3.2",
     "date-fns": "^2.29.3",
     "final-form": "^4.20.9",
+    "gh-pages": "^5.0.0",
     "node-sass": "^8.0.0",
     "primeicons": "^6.0.1",
     "primereact": "^9.3.1",
@@ -31,7 +32,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
